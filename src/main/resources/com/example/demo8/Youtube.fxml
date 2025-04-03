@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="414.0" prefWidth="424.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="238.0" fitWidth="425.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Screenshot%202025-03-27%20131952.png" />
+         </image>
+      </ImageView>
+      <Label text="BISROCK SONGS Playlist 2025 hits song ....." textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="5.0" top="5.0" />
+         </VBox.margin>
+      </Label>
+      <HBox prefHeight="38.0" prefWidth="424.0">
+         <children>
+            <ImageView fitHeight="29.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Screenshot%202025-03-27%20134412.png" />
+               </image>
+            </ImageView>
+            <VBox prefHeight="38.0" prefWidth="137.0">
+               <children>
+                  <Label prefHeight="16.0" prefWidth="154.0" text="\@Vanelyn Bless Daguplo" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="3.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="29K Followers" textFill="WHITE">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="2.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <Button mnemonicParsing="false" style="-fx-background-color: white;" text="Subscribe">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="80.0" right="5.0" top="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" style="-fx-background-color: white;" text="18.2k likes">
+               <HBox.margin>
+                  <Insets left="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets left="5.0" top="5.0" />
+         </VBox.margin>
+      </HBox>
+      <Label prefHeight="17.0" prefWidth="314.0" text="1.2M views  1 month ago  #Bless # banilen # music..." textFill="WHITE">
+         <VBox.margin>
+            <Insets left="5.0" />
+         </VBox.margin>
+      </Label>
+      <Label text="Bisrock song playlist song bisdak | vanelyn bless hits fulll album" textFill="WHITE">
+         <VBox.margin>
+            <Insets left="5.0" />
+         </VBox.margin>
+      </Label>
+      <HBox prefHeight="0.0" prefWidth="424.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="29.0" style="-fx-background-color: red;" text="B" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label text="\@Bonax_26 : " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="5.0" top="5.0" />
+               </HBox.margin>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="289.0" text="Ganda ng mga post nyo po tas ang ganda nyo rin..." textFill="WHITE">
+               <HBox.margin>
+                  <Insets top="5.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+         <VBox.margin>
+            <Insets left="5.0" top="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="38.0" prefWidth="424.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="36.0" style="-fx-background-color: pink;" text="KB">
+               <HBox.margin>
+                  <Insets left="5.0" top="5.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label text="\@KerBi :" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="5.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label text="Grabing mga music yan ang gaganda po sana ma notice...." textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="5.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</VBox>

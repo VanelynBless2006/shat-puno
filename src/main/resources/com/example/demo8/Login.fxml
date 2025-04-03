@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="521.0" prefWidth="374.0" style="-fx-background-color: pink;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="Login" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <Label text="Please enter your email and password" textFill="WHITE">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <TextField maxWidth="-Infinity" prefHeight="25.0" prefWidth="183.0" promptText="Email" style="-fx-background-color: white;">
+         <VBox.margin>
+            <Insets bottom="10.0" top="20.0" />
+         </VBox.margin>
+      </TextField>
+      <PasswordField maxWidth="-Infinity" prefHeight="25.0" prefWidth="183.0" promptText="Password" style="-fx-background-color: white;" />
+      <Button mnemonicParsing="false" style="-fx-background-color: transparent;" text="Forgot Password" textFill="WHITE">
+         <VBox.margin>
+            <Insets left="78.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Button maxWidth="-Infinity" mnemonicParsing="false" prefHeight="25.0" prefWidth="183.0" style="-fx-background-color: white;" text="Login">
+         <VBox.margin>
+            <Insets bottom="10.0" top="20.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button maxWidth="-Infinity" mnemonicParsing="false" prefWidth="183.0" style="-fx-background-color: black;" text="Or sign-in with Google" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <HBox alignment="CENTER" prefHeight="51.0" prefWidth="374.0">
+         <children>
+            <Label text="Not a member ye?" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label opacity="0.42" text="Register!" textFill="WHITE">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</VBox>
